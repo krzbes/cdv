@@ -11,5 +11,11 @@ main(){
   double d1 = 2.5;
   char c = 'A';
   
+  long licz10=500,licz8=764, licz16=0x1f4, licz2=0b111110100; 
+  printf("%o \n", licz2); // %d -liczba %x -szesnastkowa %o - Ûsemkowa
+  
+  long *p; //wskaünik
+  p = &licz16;
+  printf("%p,%d, %d\n",p ,sizeof(p),*p);
   }
   
