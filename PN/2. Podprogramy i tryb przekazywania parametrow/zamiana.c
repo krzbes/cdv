@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void zamiana( int x, int y) {
+
+   /* tu wstaw kod */
+	printf("%d , %d\n",x, y);
+	int bufor;
+	
+	bufor = x;
+	x = y;
+	y = bufor;
+		
+	printf("%d , %d\n",x, y);
+
+}
+
+int main(){
+	int a=5,b=6;
+	zamiana(a,b);
+	return 0;
+}
